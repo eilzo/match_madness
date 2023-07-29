@@ -28,7 +28,6 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@v3
-        - run: .github/workflows/firebase_deploy.yml
         - uses: FirebaseExtended/action-hosting-deploy@v0
           with:
             repoToken: '${{ secrets.GITHUB_TOKEN }}'
