@@ -28,8 +28,6 @@ jobs:
       needs: build_web
       runs-on: ubuntu-latest  
       steps:
-        - name: Checkout Repo
-          uses: actions/checkout@main
         - name: Download Artifact
           uses: actions/download-artifact@master
           with:
