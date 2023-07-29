@@ -36,10 +36,7 @@
 .firebase/
 
 # Web related
-<<<<<<< HEAD
-=======
 lib/generated_plugin_registrant.dart
->>>>>>> 34b3d9e4e7385c9b96c08839211ecc7e9fa69a2f
 
 # Symbolication related
 app.*.symbols
