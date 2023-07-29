@@ -1,0 +1,18 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "game",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "match_count",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "highest_combo",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
